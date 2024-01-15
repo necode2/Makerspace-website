@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+       
+        <title>UniHighMakerspace</title>
+    </head>
+    <body>
+        
+        <!-- header group-->
+        <div class="header-container">
+            <!-- header image-->
+            <div class="image-overlay">
+                <img class="header-image" src="Makerspace.png" alt="makerspace" >
+            </div>
+            <!--Title-->
+            <div class="header">  Uni High Maker Space  </div>
+        </div>
+        
+        <!-- event box (WIP)-->
+        <svg width="100%" height="100">
+            <rect width="100%" height="100rem" style="fill:#13294B"/>
+        </svg>
+
+        <!--our mission list + contact-->
+        <div class="mission-container">
+            <img class="mission-img" src="Makerspace.png">
+            <div class="mission-text">
+                <h2>Our Mission</h2>
+                <ul class="our_mission">
+                    <li>Encouraging DIY</li>
+                    <li>Promote creativity and pursuit of personal projects</li>
+                    <li>Inspire to students pursue their interests</li>
+                    <li>Provide resources for students projects</li>
+                    <li>Educate students on new technologies <br><br></li>
+                </ul>
+                <p><b>Contact:</b>...@illinois.edu <br><br></p>
+                <p><b>Hours:</b> 8:00AM - 4:00PM Weekdays</p>
+            </div>
+            
+        </div>
+
+        <!--Mr. Kiesel Profile-->
+        <div class="card">
+            <div class="k-pfp">
+                <img src="square.png" style="width:fit-content">
+            </div>
+            <ul2>
+                <h2 class="name">Tom Kiesel</h2>
+                <p class="position">Makerspace Manager</p>
+                <p class="info">info abt me! </p>
+                <a href="mailto:tkiesel@illinois.edu" class="button">Contact</a>
+            </ul2>
+        </div>
+
+        <!-- SLIDER-->
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="IMG_2212.jpg">
+                </div>
+                <div class="item">
+                    <img src="Makerspace.png">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev">&#x276E;</button>
+                <button id="next">&#x276F;</button>
+            </div>
+            <!-- dots-->
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+            </ul>
+        </div>
+        <script src="makerspace.js"></script>
+
+        <!--Divider-->
+        <svg class="divider" width="100%" height="100">
+            <rect width="100%" height="100rem" style="fill:#13294B"/>
+        </svg>
+
+        <!--FAQ Section with drop downs-->
+        <h2 class="FAQ">FAQ</h2>
+
+        <div class="wrapper">
+            <div class="accordion">
+                <div class="item">
+                    <input type="radio" id="one" name="item">
+                    <label for="one" class="title">question</label></label>
+                    <div class="content"> content </div>
+                </div>
+                <div class="item">
+                    <input type="radio" id="two" name="item">
+                    <label for="two" class="title">question</label></label>
+                    <div class="content"> content </div>
+                </div>
+                <div class="item">
+                    <input type="radio" id="three" name="item">
+                    <label for="three" class="title">question</label></label>
+                    <div class="content"> content </div>
+                </div>
+                <div class="item">
+                    <input type="radio" id="four" name="item">
+                    <label for="four" class="title">question</label></label>
+                    <div class="content"> content </div>
+                </div>
+                <div class="item">
+                    <input type="radio" id="five" name="item">
+                    <label for="five" class="title">question</label></label>
+                    <div class="content"> content </div>
+                </div>
+                <div class="item">
+                    <input type="radio" id="six" name="item">
+                    <label for="six" class="title">question</label></label>
+                    <div class="content"> content </div>
+                </div>
+                <div class="item">
+                    <input type="radio" id="seven" name="item">
+                    <label for="seven" class="title">question</label></label>
+                    <div class="content"> content </div>
+                </div>
+                <div class="item">
+                    <input type="radio" id="eight" name="item">
+                    <label for="eight" class="title">question</label></label>
+                    <div class="content"> content </div>
+                </div>
+            </div>
+        </div> 
+
+    </body>
+</html>
