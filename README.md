@@ -1,7 +1,7 @@
 # Makerspace-website
----
 
-Welcome to the Maker Space Website Github! Here you'll have access to and can modify all the files of the website. 
+
+Welcome to the Maker Space Website Github!
 -
 What we need:
 --
