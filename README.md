@@ -1,4 +1,4 @@
-# Welcome to the Maker Space Website Github!
+# Welcome to the Maker Space Website!
 ⭐ What we need:
 --
 - Content!! (there is a lot of info which we need to add!)
